@@ -20,13 +20,11 @@ A complete audio playback system for Raspberry Pi Pico using the MAX98357A I2S a
 - Raspberry Pi Pico
 - MAX98357A I2S Class D Amplifier Module
 - MicroSD Card Module (SPI)
-- Speaker (4Ω or 8Ω)
+![Speaker](images/speaker3.jpg) - (4Ω or 8Ω)
 - 100µF capacitor (for testing PWM audio)
 - MicroSD card (FAT32 formatted)
 - Jumper wires
 - USB cable for power/programming
-
-![Hardware Components](pic2.png)
 
 ## Our Journey: Troubleshooting Story
 
