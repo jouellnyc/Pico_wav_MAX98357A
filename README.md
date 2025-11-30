@@ -77,7 +77,6 @@ audio.duty_u16(32768)
 - ✅ Basic audio generation possible
 - ❌ MAX98357A or I2S implementation was the issue
 
-![PWM Test Setup](pic3.png)
 
 ### The INMP441 Detour
 
