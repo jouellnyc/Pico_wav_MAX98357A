@@ -42,7 +42,7 @@ We started with MicroPython, attempting to generate I2S signals using the Pico's
 - Speaker properly wired to OUT+ and OUT-
 
 **Result:** Complete silence from three different MAX98357A boards.
-![Bad Boards](images/3bad4.png) - (4Ω or 8Ω)
+![Bad Boards](images/3bad4.png)
 I almost sent them all back!
 
 **What we tried:**
