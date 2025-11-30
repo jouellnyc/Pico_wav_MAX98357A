@@ -82,11 +82,11 @@ audio.duty_u16(32768)
 
 While waiting for a potential MAX98357A replacement, we tested an INMP441 I2S MEMS microphone with the same pins.
 
-**Result:** All zeros - no data received. This strongly suggested the MicroPython PIO I2S implementation wasn't generating proper I2S timing signals.
+**Result:** All zeros - no data received. This strongly suggested the MicroPython PIO I2S implementation wasn't generating proper I2S timing signals. OR we were just not coding/configuring  it correctly.
 
 ### The Solution: CircuitPython
 
-**Breakthrough:** Switched from MicroPython to CircuitPython, which has native hardware I2S support via `audiobusio.I2SOut`.
+**Breakthrough:** I told Claude.ai "Hey, should we try CircuitPython?" (I knew it had specific libs for i2s but wanted to start with MicroPython to see how far we could get). We switched from MicroPython to CircuitPython, which has native hardware I2S support via `audiobusio.I2SOut`.
 
 ```python
 import board
