@@ -156,7 +156,6 @@ audio = audiobusio.I2SOut(
 | OUT+ | Speaker + | Amplifier output |
 | OUT- | Speaker - | Amplifier output |
 
-![MAX98357A Wiring](pic4.png)
 
 ### SD Card Module Connections (Optional)
 
@@ -169,7 +168,6 @@ audio = audiobusio.I2SOut(
 | VCC | 3.3V (Pin 36) |
 | GND | GND (Pin 38) |
 
-![Complete Wiring](pic5.png)
 
 ## Software Setup
 
