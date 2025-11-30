@@ -103,10 +103,10 @@ audio = audiobusio.I2SOut(
 
 ### Key Lessons Learned
 
-1. **MicroPython's PIO I2S is unreliable** - While theoretically possible to bit-bang I2S with PIO, getting the timing perfect is extremely difficult
-2. **CircuitPython has superior audio support** - Built-in hardware I2S libraries that actually work
+1. **MicroPython's PIO I2S did not work for us** - While theoretically possible to bit-bang I2S with PIO, getting the timing perfect proved extremely difficult
+2. **CircuitPython appears to have superior audio support** - Built-in hardware I2S libraries that actually work
 3. **Component testing is crucial** - The PWM test proved our hardware was fine before we spent more time on software
-4. **The boards weren't dead** - All three MAX98357A boards worked perfectly once we used proper I2S signals
+4. **The boards weren't dead** - All three MAX98357A boards worked perfectly once we used proper I2S signals!
 
 ## Final Working Setup
 
