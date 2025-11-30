@@ -2,7 +2,9 @@
 
 A complete audio playback system for Raspberry Pi Pico using the MAX98357A I2S amplifier, supporting WAV and MP3 files from SD card storage.
 
-![Setup](pic1.png)
+(Author's Note: I wanted to play a wav file on the pico, what a ride! I used Claude.ai as my tutor and we got it done. I usually google first but this was more fun.)
+
+![Setup](images/setup1.png)
 
 ## Table of Contents
 - [Hardware Requirements](#hardware-requirements)
