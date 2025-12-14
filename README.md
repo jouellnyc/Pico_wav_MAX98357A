@@ -286,7 +286,7 @@ play_tone(440, 1.0)
 
 1. **Check format** - Must be FAT32
 2. **Verify wiring** - Especially CS, SCK, MOSI, MISO
-3. **Check power** - SD module needs 3.3V, not 5V
+3. **Check power** - I found the SD module needs 5V, not 3.3 V
 4. **Try different card** - Some cards are incompatible
 
 ### Poor Audio Quality
